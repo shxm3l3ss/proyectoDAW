@@ -35,7 +35,6 @@ let vbind = ref("red");
         </div>
     </section>
 
-
 </template>
 
 <style scoped>
@@ -99,9 +98,6 @@ let vbind = ref("red");
 .section h2 {
     color: white;
     margin: 0;
-}
-.section p {
-    color: white;
 }
 .red{
     color: red;
