@@ -39,7 +39,7 @@ function checkInputValue() {
                     <p v-if="showText1">v-if vuelve a renderizar el elemento</p>
                     <h2>v-show</h2>
                     <button @click="showText2 = !showText2">Haz Click</button>
-                    <p v-if="showText2">v-show cambiar la propiedad display a none</p>
+                    <p v-show="showText2">v-show cambiar la propiedad display a none</p>
                 </div>
             </div>
         </div>

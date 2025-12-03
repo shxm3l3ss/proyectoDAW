@@ -4,7 +4,7 @@ import { ref } from 'vue';
 
 let radioValue = ref(true);
 
-let movies = ["Batman","Escuadron Suicida", "Avengers"]
+let movies = ["Batman","Escuadron Suicida", "Avengers"];
 
 </script>
 

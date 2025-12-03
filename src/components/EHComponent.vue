@@ -23,6 +23,7 @@ let contador = ref(0);
                     <div class="section-demo-button-container">
                         <button @click="contador++">Incrementar</button>
                         <button @click="contador--">Disminuir</button>
+                        <button v-show="false" v-on:click="contador++">v-on</button> <!--Directiva v-on completa-->
                     </div>
                     <p>Contador: {{ contador }}</p>
                 </div>
